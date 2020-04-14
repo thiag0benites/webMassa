@@ -1,0 +1,129 @@
+html, body
+{  
+    margin: 0;  
+    padding: 0;
+}
+
+body{
+    background-image: url("../4-img/fundo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #F7F3F3 !important;
+}
+
+.container
+{
+    color: #5C5C5C !important;
+}
+
+#logo{
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+}
+
+.navbar
+{
+    background-color: #ED1C24 !important;
+}
+
+.navbar .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar, .container, a
+{
+    color: #fff;
+    font-weight: bold;
+}
+
+#form-planos
+{
+    color: #ED1C24;
+}
+
+#form-planos, .row, select
+{
+    border-radius: 30px !important;
+}
+
+#img-info
+{
+    margin: 1px 5px 1px 0;
+}
+
+#erro
+{
+    color: #41B5F6;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+.container .row #tabelaMassa_wrapper,
+.container .row #tabelaAuto_wrapper
+{
+    margin-top: 130px !important;
+}
+
+.container .row #tabelaMassa_wrapper thead,
+.container .row #tabelaAuto_wrapper thead
+{
+    width: 100% !important;
+}
+
+.container .row #tabelaMassa_wrapper th,
+.container .row #tabelaAuto_wrapper th
+{
+    background-color: #F7F3F3;
+}
+
+#tabelaMassa_length label,
+#tabelaAuto_length label
+{
+    color: #fff;
+}
+
+#tabelaMassa_length label select,
+#tabelaAuto_length label select
+{
+    color: #000;
+}
+
+#tabelaMassa_filter input,
+#tabelaAuto_filter input
+{
+    color: #000;
+}
+
+#tabelaMassa_filter label,
+#tabelaAuto_filter label
+{
+    color: #fff;
+}
+
+h3
+{
+    color: #fff;
+}
+
+#atualizar
+{
+    color: #fff;
+    float: right;
+    margin-top: 30px;
+}
+
+#atualizar:hover
+{
+    cursor: pointer;
+}
+
+.copyright
+{
+    margin-top: 20px;
+}
